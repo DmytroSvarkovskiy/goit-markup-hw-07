@@ -6,7 +6,7 @@
   }
 }
 
-.header__link--current {
+.header__link.current {
   color: var(--accent-color);
   position: relative;
   &::after {
@@ -67,11 +67,14 @@
     margin-left: auto;
   }
 }
-
-.header__item:not(:last-child) {
-  margin-right: 50px;
-  &:nth-child(1) {
+.nav {
+  .header__item:first-child {
     margin-right: 93px;
+  }
+}
+.header__item {
+  &:not(:last-child) {
+    margin-right: 50px;
   }
 }
 
