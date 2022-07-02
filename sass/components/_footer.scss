@@ -9,6 +9,7 @@
 .conteiner-footer {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .adress-box__footer {
@@ -44,7 +45,6 @@
 
 .footer-soc {
   margin-left: 70px;
-  padding-top: 15px;
 }
 
 .title-footer {
@@ -87,7 +87,6 @@
 /* ---------------INPUT FOOTER------------ */
 
 .footer-form {
-  padding-top: 15px;
   margin-left: 93px;
 }
 
